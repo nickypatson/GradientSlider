@@ -107,4 +107,221 @@ class BubbleView: UIView {
         return layerView
     }
     
+    func createBubbleView7(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView6(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView5(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView4(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView3(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView2(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
+    func createBubbleView1(frame : CGRect , percentage : Float) -> UIView {
+        
+        let layerView = UIView()
+        layerView.frame = frame
+        layerView.layer.masksToBounds = true
+        layerView.layer.cornerRadius = 8.0
+        layerView.layer.backgroundColor = UIColor(red: 64/255, green: 64/255, blue: 64/255, alpha: 1.0).cgColor
+        layerView.layer.shadowColor = UIColor.blue.cgColor
+        layerView.layer.shadowOffset = CGSize(width: 2, height: 2)
+        layerView.layer.shadowRadius = 5.0
+        layerView.layer.shadowOpacity = 1.0
+        
+        let width =  (Float(frame.size.width)  * percentage )/100
+        let breizerFrame = CGRect(x: 0, y: 0, width: CGFloat(width), height: frame.size.height)
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
+        gradientLayer.locations = [0.1,0.6]
+        gradientLayer.colors = [UIColor(red: 239/255, green: 160/255, blue: 120/255, alpha: 1.0).cgColor,UIColor(red: 255/255, green: 100/255, blue: 40/255, alpha: 1.0).cgColor]
+        gradientLayer.frame = breizerFrame
+        gradientLayer.shadowColor = UIColor.black.cgColor
+        gradientLayer.shadowOffset = CGSize(width: 0.0, height: 2.5)
+        gradientLayer.shadowRadius = 2.0
+        gradientLayer.shadowOpacity = 0.25
+        
+        layerView.layer.addSublayer(gradientLayer)
+        
+        return layerView
+    }
+    
 }
