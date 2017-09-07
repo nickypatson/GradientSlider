@@ -1,2 +1,2 @@
 * linguist-vendored
-README.md linguist-vendored=false
+*.rb linguist-language=Shell
