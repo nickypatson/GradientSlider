@@ -26,12 +26,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## How To Use
 
-
+```
 coolSlider.defaultValue = 0.1;
+
 coolSlider.actionBlock={slider,newvalue in
 
-
 }
+```
 
 
 ## Requirements
