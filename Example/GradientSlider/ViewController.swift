@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import GradientSlider
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customColorSlider: CustomColorSlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        customColorSlider.defaultValue = 0.9
+        customColorSlider.actionBlock={slider,newvalue in
+            
+        }
+
+        
     }
 
     override func didReceiveMemoryWarning() {

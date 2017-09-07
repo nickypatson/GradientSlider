@@ -1,0 +1,6 @@
+framework module GradientSlider {
+  umbrella header "GradientSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

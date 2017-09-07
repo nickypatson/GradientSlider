@@ -1,0 +1,26 @@
+{
+  "name": "GradientSlider",
+  "version": "0.1.0",
+  "summary": "A short description of GradientSlider.",
+  "homepage": "https://github.com/nickypatson/GradientSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nickypatson": "nickypatson@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nickypatson/GradientSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GradientSlider/Classes/**/*",
+  "resource_bundles": {
+    "GradientSlider": [
+      "GradientSlider/Assets/*.png"
+    ]
+  }
+}

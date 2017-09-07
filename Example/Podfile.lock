@@ -1,0 +1,16 @@
+PODS:
+  - GradientSlider (0.1.0)
+
+DEPENDENCIES:
+  - GradientSlider (from `../`)
+
+EXTERNAL SOURCES:
+  GradientSlider:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GradientSlider: 93940d31a411d4fa68991c6516355d39773acee6
+
+PODFILE CHECKSUM: b404ad755447e12cf900ec421c67aac263bd1ca9
+
+COCOAPODS: 1.3.0
