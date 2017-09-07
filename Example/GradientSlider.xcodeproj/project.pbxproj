@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9550AB1589075CF1DA17F888 /* Pods_GradientSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C105000307E159225F911A4 /* Pods_GradientSlider_Tests.framework */; };
 		9F2200EE38D9B5E5507BD494 /* Pods_GradientSlider_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D1A1EF6F6653E70CD986D9 /* Pods_GradientSlider_Example.framework */; };
+		E1420E9A1F612B9800E8D3D0 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1420E991F612B9800E8D3D0 /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		779F2B462224D16A02809124 /* Pods-GradientSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientSlider_Example/Pods-GradientSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BED2782F08C9A70AB960DE5 /* GradientSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GradientSlider.podspec; path = ../GradientSlider.podspec; sourceTree = "<group>"; };
+		E1420E991F612B9800E8D3D0 /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		F91A27D8AF4FB5272E27ECCA /* Pods-GradientSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientSlider_Tests/Pods-GradientSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				E1420E991F612B9800E8D3D0 /* BubbleView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -372,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1420E9A1F612B9800E8D3D0 /* BubbleView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
