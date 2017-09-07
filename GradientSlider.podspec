@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GradientSlider'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'A short cool of GradientSlider.'
   s.homepage         = 'https://github.com/nickypatson/GradientSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
