@@ -5,11 +5,43 @@
 [![License](https://img.shields.io/cocoapods/l/GradientSlider.svg?style=flat)](http://cocoapods.org/pods/GradientSlider)
 [![Platform](https://img.shields.io/cocoapods/p/GradientSlider.svg?style=flat)](http://cocoapods.org/pods/GradientSlider)
 
+
+
+# GraidentSlider
+
+Graident Uicontrol Slider 
+
+
+## Description
+
+Graident layer slider using UIView
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## ScreenShot
+![Alt text](/gif.gif?raw=true "Optional Title")
+
+
+## How To Use
+
+
+coolSlider.defaultValue = 0.1;
+coolSlider.actionBlock={slider,newvalue in
+
+
+}
+
+
 ## Requirements
+
+```
+* Swift 3.0.1
+* XCode 8.3.1
+* iOS 9.0 (Min SDK)
+```
+
 
 ## Installation
 
@@ -22,7 +54,12 @@ pod 'GradientSlider'
 
 ## Author
 
-nickypatson, nickypatson@gmail.com
+Nicky Patson
+
+[HomePage](http://about.me/nickypatson)
+
+<mail.nickypatson@gmail.com>
+
 
 ## License
 
