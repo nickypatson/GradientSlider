@@ -48,7 +48,7 @@ GradientSlider is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GradientSlider'
+pod 'GradientSlider’, :git=> ‘https://github.com/nickypatson/GradientSlider’
 ```
 
 ## Author
