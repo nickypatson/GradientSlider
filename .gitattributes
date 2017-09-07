@@ -1,1 +1,2 @@
-*.rb linguist-language=Swift
+* linguist-vendored
+*.md linguist-vendored=false
