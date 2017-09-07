@@ -11,17 +11,17 @@
 
 Graident Uicontrol Slider 
 
-
 ## Description
 
 Graident layer slider using UIView
 
+## ScreenShot
+
+![Alt text](/gif.gif?raw=true "Optional Title")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## ScreenShot
-![Alt text](/gif.gif?raw=true "Optional Title")
 
 
 ## How To Use
@@ -34,7 +34,6 @@ coolSlider.actionBlock={slider,newvalue in
 }
 ```
 
-
 ## Requirements
 
 ```
@@ -42,7 +41,6 @@ coolSlider.actionBlock={slider,newvalue in
 * XCode 8.3.1
 * iOS 9.0 (Min SDK)
 ```
-
 
 ## Installation
 
