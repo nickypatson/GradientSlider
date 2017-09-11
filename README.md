@@ -34,21 +34,57 @@ coolSlider.actionBlock={slider,newvalue in
 }
 ```
 
+
+## How to use
+
+First of all import library in your project
+
+```swift
+import GradientSlider
+```  
+
+```
+coolSlider.defaultValue = 0.1;
+
+coolSlider.actionBlock={slider,newvalue in
+
+}
+```
+
 ## Requirements
 
 ```
 * Swift 3.0.1
 * XCode 8.3.1
-* iOS 9.0 (Min SDK)
+* iOS 8.0 (Min SDK)
 ```
 
-## Installation
+## Installation with CocoaPods
 
-GradientSlider is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like SwiftMultiSelect in your projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+#### Podfile
+
+To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'GradientSlider’, :git=> ‘https://github.com/nickypatson/GradientSlider’
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+  use_frameworks!
+  pod 'GradientSlider’, :git=> ‘https://github.com/nickypatson/GradientSlider’
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
 ```
 
 ## Author
