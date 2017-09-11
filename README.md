@@ -23,18 +23,6 @@ Graident layer slider using UIView
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-
-## How To Use
-
-```
-coolSlider.defaultValue = 0.1;
-
-coolSlider.actionBlock={slider,newvalue in
-
-}
-```
-
-
 ## How to use
 
 First of all import library in your project
