@@ -56,7 +56,7 @@ $ gem install cocoapods
 
 #### Podfile
 
-To integrate SwiftMultiSelect into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate GradientSlider into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
