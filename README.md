@@ -41,8 +41,8 @@ coolSlider.actionBlock={slider,newvalue in
 ## Requirements
 
 ```
-* Swift 3.0.1
-* XCode 8.3.1
+* Swift 4
+* XCode 9
 * iOS 8.0 (Min SDK)
 ```
 
