@@ -127,7 +127,7 @@ public class CustomColorSlider: UIControl {
         let diameter = max(CustomColorSlider.defaultHeight,44.0)
         let r = CGRect(x: center.x - diameter/2.0, y: center.y - diameter/2.0, width: diameter, height: diameter)
         if r.contains(pt){
-            sendActions(for: UIControlEvents.touchDown)
+            sendActions(for: UIControl.Event.touchDown)
             return true
         }
         return false
@@ -141,7 +141,7 @@ public class CustomColorSlider: UIControl {
         let pt = touch.location(in: self)
         let newValue = valueForLocation(pt)
         setValue(newValue, animated: true)
-        sendActions(for: UIControlEvents.valueChanged)
+        sendActions(for: UIControl.Event.valueChanged)
         extractedFunc(newValue)
         
         return true
@@ -153,7 +153,7 @@ public class CustomColorSlider: UIControl {
             setValue(newValue, animated: true)
         }
         actionBlock(self,defaultValue)
-        sendActions(for: [UIControlEvents.valueChanged, UIControlEvents.touchUpInside])
+        sendActions(for: [UIControl.Event.valueChanged, UIControl.Event.touchUpInside])
         
     }
 }
